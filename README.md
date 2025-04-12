@@ -10,7 +10,7 @@ Registros de transacciones de una tienda minorista en línea durante (2010-2011)
 - StockCode: Código único del producto (texto). Ej.: "85123A".
 - Description: Nombre del producto (texto).
 - Quantity: Cantidad vendida (entero). Unidad: "unidades".
-- UnitPrice: Precio por unidad (float). Unidad: "USD".
+- UnitPrice: Precio por unidad (float). Unidad: "libras".
 - InvoiceDate: Fecha y hora de la transacción (datetime).
 - CustomerID: ID del cliente (float, algunos son nulos).
 - Country: País del cliente (texto). Ej.: "United Kingdom".
@@ -19,3 +19,15 @@ Registros de transacciones de una tienda minorista en línea durante (2010-2011)
 - Algunos campos presentan valores nulos o negativos. 
 --"CustomerID" presenta clientes no registrados
 --"Quantity", "UnitPrice" que indican devoluciones es recomendable filtrarlo.
+
+METADATA POSIBLE: 
+Intervalo de fechas de las transacciones
+-	Número de clientes únicos 
+-	Número de productos únicos
+-	Ingresos por país
+-	 Productos populares por cantidad vendida
+-	 Frecuencia de compra del cliente 
+-	Valor promedio del pedido
+
+VISUALIZACION
+
