@@ -1,0 +1,21 @@
+#Online Retail Dataset
+
+### Descripción###
+
+Registros de transacciones de una tienda minorista en línea durante (2010-2011). Contiene facturas, productos, cantidades, precios y países de clientes.
+
+## Campos principales de la base de datos
+
+- InvoiceNo: Número de factura (texto). Ej.: "536365".
+- StockCode: Código único del producto (texto). Ej.: "85123A".
+- Description: Nombre del producto (texto).
+- Quantity: Cantidad vendida (entero). Unidad: "unidades".
+- UnitPrice: Precio por unidad (float). Unidad: "USD".
+- InvoiceDate: Fecha y hora de la transacción (datetime).
+- CustomerID: ID del cliente (float, algunos son nulos).
+- Country: País del cliente (texto). Ej.: "United Kingdom".
+
+##Nota: 
+- Algunos campos presentan valores nulos o negativos. 
+--"CustomerID" presenta clientes no registrados
+--"Quantity", "UnitPrice" que indican devoluciones es recomendable filtrarlo.
