@@ -21,7 +21,8 @@ Registros de transacciones de una tienda minorista en línea durante (2010-2011)
 --"Quantity", "UnitPrice" que indican devoluciones es recomendable filtrarlo.
 
 METADATA POSIBLE: 
-Intervalo de fechas de las transacciones
+
+ - Intervalo de fechas de las transacciones
 -	Número de clientes únicos 
 -	Número de productos únicos
 -	Ingresos por país
